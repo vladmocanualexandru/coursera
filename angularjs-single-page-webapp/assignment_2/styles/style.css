@@ -1,0 +1,29 @@
+div.itemListContainer {
+    margin:20px;
+    padding:20px;
+    float:left;
+    font-size: 24px;
+    border: 3px solid transparent;
+}
+
+div.itemListContainer .item.clickable .button {
+    cursor: pointer;
+    float:right;
+    margin-left: 20px;
+}
+
+div.itemListContainer .item.clickable .button:hover {
+    cursor: pointer;
+    float:right;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#toBuyList {
+    background-color: rgb(255, 255, 131);
+    border-color: rgb(65, 65, 2);
+}
+
+#alreadyBoughtList {
+    font-style: italic;
+}
